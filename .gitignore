@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Data (kept out of git: download separately, see data/README.md) ---
+data/*.csv
+data/*.zip
+!data/README.md
+
+# --- Generated outputs ---
+outputs/figures/*.png
+outputs/models/*.joblib
+outputs/models/*.pkl
+outputs/reports/*.csv
+outputs/reports/*.json
+!outputs/figures/.gitkeep
+!outputs/models/.gitkeep
+!outputs/reports/.gitkeep
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
